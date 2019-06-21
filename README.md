@@ -14,7 +14,6 @@ Matrix multiplication written in GPU.js:
 
 ```js
 const gpu = new GPU();
-
 // Create the GPU accelerated function from a kernel
 // function that computes a single element in the
 // 512 x 512 matrix (2D array). The kernel function
@@ -352,7 +351,7 @@ const krender = gpu.createKernel(function(x) {
 })
   .setOutput([500, 500])
   .setGraphical(true);
- ```
+```
 
 ## Combining kernels
 
